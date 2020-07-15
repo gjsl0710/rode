@@ -42,7 +42,7 @@ client.on('message', (message) => {
     let embed = new Discord.RichEmbed()
     let img = 'https://media.discordapp.net/attachments/717205181502324868/717207192695996557/cbjr21565491229_1.jpg';
     var duration = moment.duration(client.uptime).format(" D [일], H [시간], m [분], s [초]");
-    embed.setColor('#78178F')
+    embed.setColor('#a840ff')
     embed.setAuthor('서버 정보', img)
     embed.setFooter(`문이봇`)
     embed.addBlankField()
@@ -100,7 +100,7 @@ client.on('message', (message) => {
     let commandStr = '';
     let embed = new Discord.RichEmbed()
       .setAuthor('도움말 By 문이봇', helpImg)
-      .setColor('#78178F')
+      .setColor('#a840ff')
       .setFooter(`문이봇`)
       .setTimestamp()
     
@@ -142,7 +142,7 @@ client.on('message', (message) => {
       let contents = message.content.slice('!공지'.length);
       let embed = new Discord.RichEmbed()
         .setAuthor('EPIC Store 공지')
-        .setColor('#78178F')
+        .setColor('#a840ff')
         .setFooter(`EPIC Store`)
         .setTimestamp()
   

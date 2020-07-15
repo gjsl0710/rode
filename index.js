@@ -95,6 +95,7 @@ client.on('message', (message) => {
       {name: '!공지', desc: '전체공지'},
       {name: '!청소', desc: '텍스트 지움'},
       {name: '!코드', desc: '서버 초대권'},
+      {name: '!서버', desc: '서버 정보 표시'},
     ];
     let commandStr = '';
     let embed = new Discord.RichEmbed()
